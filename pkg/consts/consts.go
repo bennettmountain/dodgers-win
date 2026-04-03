@@ -3,7 +3,6 @@ package consts
 const DODGERS_WIN_TEXT = "🚨The Dodgers won yesterday\n" +
 	"Use code DODGERSWIN in the Panda Express app to enjoy your $7 Panda Plate 🐼"
 
-const DODGERS_WIN_GIF = "https://dodgers-win.s3.us-west-1.amazonaws.com/Dodgers_Home_Run_Panda_Celebration_Video_compressed.gif"
 
 const WELCOME_TEXT = "🚨It's that time of the year🐼\n" +
 	"The time of the year when Shohei hits bombs, Mookie makes jaw-dropping plays, Yoshi " +

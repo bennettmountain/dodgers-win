@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"time"
 
 	"github.com/joho/godotenv"
@@ -99,7 +100,7 @@ func sendDodgersWinTexts(ctx context.Context) error {
 	}
 
 	for _, subscriber := range subscribers {
-		err = twilioClient.SendMessage(ctx, subscriber, consts.DODGERS_WIN_TEXT, consts.DODGERS_WIN_GIF)
+		err = twilioClient.SendMessage(ctx, subscriber, consts.DODGERS_WIN_TEXT, os.Getenv("DODGERS_WIN_GIF_URL"))
 		if err != nil {
 			return fmt.Errorf("error sending message to %s: %w", subscriber, err)
 		}

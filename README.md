@@ -39,6 +39,7 @@ TWILIO_ACCOUNT_SID=<twilio_account_sid>
 TWILIO_AUTH_TOKEN=<twilio_auth_token>
 TWILIO_PHONE_NUMBER=<twilio_phone_number>
 CONTACT_CARD_URL=<s3_contact_card_url>
+DODGERS_WIN_GIF_URL=<s3_dodgers_win_gif_url>
 ```
 
 ### Scripts

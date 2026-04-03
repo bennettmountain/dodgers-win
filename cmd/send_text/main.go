@@ -5,6 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"log"
+	"os"
 
 	"github.com/joho/godotenv"
 
@@ -33,21 +34,21 @@ func main() {
 		log.Fatal("--phone-number and --all-subscribers are mutually exclusive")
 	}
 
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatalf("Error loading .env file: %v", err)
+	}
+
 	var body string
 	var mediaUrl []string
 	switch *textType {
 	case "win":
 		body = consts.DODGERS_WIN_TEXT
-		mediaUrl = []string{consts.DODGERS_WIN_GIF}
+		mediaUrl = []string{os.Getenv("DODGERS_WIN_GIF_URL")}
 	case "welcome":
 		body = consts.WELCOME_TEXT
 	default:
 		log.Fatalf("invalid --text value %q: must be \"win\" or \"welcome\"", *textType)
-	}
-
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatalf("Error loading .env file: %v", err)
 	}
 
 	ctx := context.Background()
