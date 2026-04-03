@@ -1,0 +1,96 @@
+{
+    "copyright": "Copyright 2025 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+    "totalItems": 1,
+    "totalEvents": 0,
+    "totalGames": 1,
+    "totalGamesInProgress": 0,
+    "dates": [
+        {
+            "date": "2025-05-21",
+            "totalItems": 1,
+            "totalEvents": 0,
+            "totalGames": 1,
+            "totalGamesInProgress": 0,
+            "games": [
+                {
+                    "gamePk": 777824,
+                    "gameGuid": "bf9e21db-7476-4ae7-8e0e-d1cd383d485e",
+                    "link": "/api/v1.1/game/777824/feed/live",
+                    "gameType": "R",
+                    "season": "2025",
+                    "gameDate": "2025-05-22T02:10:00Z",
+                    "officialDate": "2025-05-21",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 26,
+                                "losses": 24,
+                                "pct": ".520"
+                            },
+                            "score": 1,
+                            "team": {
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 16
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 31,
+                                "losses": 19,
+                                "pct": ".620"
+                            },
+                            "score": 3,
+                            "team": {
+                                "id": 119,
+                                "name": "Los Angeles Dodgers",
+                                "link": "/api/v1/teams/119"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 17
+                        }
+                    },
+                    "venue": {
+                        "id": 22,
+                        "name": "Dodger Stadium",
+                        "link": "/api/v1/venues/22"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/777824/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-777824-2025-05-21",
+                    "seasonDisplay": "2025",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 3,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        }
+    ]
+}
