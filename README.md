@@ -2,7 +2,7 @@
 A program to send a text whenever Panda Express's DODGERSWIN $7 Panda Plate deal is active. The deal is active the day after the Los Angeles Dodgers win a home game. The text will go out at 5:30 pm PST on those days.
 
 ## How can I add myself to the list?
-Text "dodgerswin" to XXX-XXX-XXXX to add yourself to the list. You should receive an automated text confirming you properly signed up and instructing you how to remove yourself from the list: by replying "STOP" at any time.
+Reach out to Bennett to get the phone number to text. Once you have it, text "dodgerswin" to that number to add yourself to the list. You should receive an automated welcome text and a contact card confirming you properly signed up. To remove yourself from the list, reply "STOP" at any time.
 
 
 ## Tech Stack Overview
