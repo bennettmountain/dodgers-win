@@ -23,7 +23,6 @@ func Alerter(w http.ResponseWriter, r *http.Request) {
 	err := godotenv.Load()
 	if err != nil {
 		log.Printf("Warning: Error loading .env file: %v", err)
-		return
 	}
 
 	dealActive, err := checkDodgersWin()
