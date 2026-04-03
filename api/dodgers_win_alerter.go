@@ -9,10 +9,10 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"dodgers-win/internal/consts"
-	"dodgers-win/internal/db"
-	"dodgers-win/internal/mlb_stats_api_client"
-	"dodgers-win/internal/twilio_client"
+	"dodgers-win/pkg/consts"
+	"dodgers-win/pkg/db"
+	"dodgers-win/pkg/mlb_stats_api_client"
+	"dodgers-win/pkg/twilio_client"
 )
 
 // Alerter is the entry point for the Vercel Serverless Function

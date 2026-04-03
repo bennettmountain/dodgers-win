@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"dodgers-win/internal/mlb_stats_api_client"
+	"dodgers-win/pkg/mlb_stats_api_client"
 )
 
 func main() {

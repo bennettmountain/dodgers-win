@@ -8,7 +8,7 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"dodgers-win/internal/db"
+	"dodgers-win/pkg/db"
 )
 
 type subscriber struct {
